@@ -1,0 +1,2049 @@
+{
+  "generatedAt": "2026-10-21T12:30:18.272Z",
+  "routes": [
+    {
+      "name": "home",
+      "route": "/",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 3044,
+          "focusableCount": 15,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Hello, Jean Bosco Habimana"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 2703,
+          "focusableCount": 15,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Hello, Jean Bosco Habimana"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1555,
+          "focusableCount": 20,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Hello, Jean Bosco Habimana"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Hello, Jean Bosco Habimana\""
+      ]
+    },
+    {
+      "name": "withdrawals",
+      "route": "/withdrawals",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1119,
+          "focusableCount": 18,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "All1",
+              "w": 64,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Voting1",
+              "w": 88,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Approved0",
+              "w": 110,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Paid out0",
+              "w": 101,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Rejected0",
+              "w": 106,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Expired0",
+              "w": 97,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Withdrawals"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 18,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "All1",
+              "w": 64,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Voting1",
+              "w": 88,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Approved0",
+              "w": 110,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Paid out0",
+              "w": 101,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Rejected0",
+              "w": 106,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Expired0",
+              "w": 97,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Withdrawals"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "button",
+              "label": "All1",
+              "w": 64,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Voting1",
+              "w": 88,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Approved0",
+              "w": 110,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Paid out0",
+              "w": 101,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Rejected0",
+              "w": 106,
+              "h": 36
+            },
+            {
+              "tag": "button",
+              "label": "Expired0",
+              "w": 97,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Withdrawals"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Withdrawals\""
+      ]
+    },
+    {
+      "name": "bulletin",
+      "route": "/bulletin",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1610,
+          "focusableCount": 20,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Bulletin"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1411,
+          "focusableCount": 20,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Bulletin"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1171,
+          "focusableCount": 25,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 277,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Bulletin"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Bulletin\""
+      ]
+    },
+    {
+      "name": "ledger",
+      "route": "/ledger",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1648,
+          "focusableCount": 39,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Audit ledger"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1548,
+          "focusableCount": 39,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 363,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Audit ledger"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1355,
+          "focusableCount": 44,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 512,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Audit ledger"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Audit ledger\""
+      ]
+    },
+    {
+      "name": "deposit",
+      "route": "/deposit",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 885,
+          "focusableCount": 16,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": ""
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 16,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "Amount",
+              "w": 486,
+              "h": 27
+            },
+            {
+              "tag": "input",
+              "label": "MoMo number",
+              "w": 482,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": ""
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 21,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "Amount",
+              "w": 486,
+              "h": 27
+            },
+            {
+              "tag": "input",
+              "label": "MoMo number",
+              "w": 482,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": ""
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"\""
+      ]
+    },
+    {
+      "name": "desk",
+      "route": "/desk",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1693,
+          "focusableCount": 17,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1329,
+          "focusableCount": 17,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 638,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 22,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 250,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "desk-announce",
+      "route": "/desk/announce",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 855,
+          "focusableCount": 17,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 17,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 26,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 646,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "desk-attendance",
+      "route": "/desk/attendance",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1290,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1278,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1135,
+          "focusableCount": 32,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 646,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 646,
+              "h": 36
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            },
+            {
+              "tag": "span",
+              "label": "",
+              "w": 32,
+              "h": 18
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "desk-loan",
+      "route": "/desk/loan",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1827,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "input",
+              "label": "",
+              "w": 16,
+              "h": 16
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1765,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 638,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 16,
+              "h": 16
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 638,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1083,
+          "focusableCount": 32,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 252,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 16,
+              "h": 16
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 252,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 292,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "desk-lottery",
+      "route": "/desk/lottery",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1034,
+          "focusableCount": 12,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 12,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 21,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "desk-minutes",
+      "route": "/desk/minutes",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1006,
+          "focusableCount": 20,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 20,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 570,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 570,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 570,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 29,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 646,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 646,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 538,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 538,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 538,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Executive Desk"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Executive Desk\""
+      ]
+    },
+    {
+      "name": "members",
+      "route": "/members",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1567,
+          "focusableCount": 23,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Members"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1067,
+          "focusableCount": 23,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 260,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Members"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 28,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 260,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Members"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Members\""
+      ]
+    },
+    {
+      "name": "rotation",
+      "route": "/rotation",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1318,
+          "focusableCount": 11,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Rotation"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1283,
+          "focusableCount": 11,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Rotation"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1090,
+          "focusableCount": 16,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Rotation"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Rotation\""
+      ]
+    },
+    {
+      "name": "help",
+      "route": "/help",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1522,
+          "focusableCount": 27,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Help"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1477,
+          "focusableCount": 27,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "Search help",
+              "w": 694,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Help"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1284,
+          "focusableCount": 32,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "Search help",
+              "w": 950,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Help"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Help\""
+      ]
+    },
+    {
+      "name": "settings",
+      "route": "/settings",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 1721,
+          "focusableCount": 22,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Settings"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1628,
+          "focusableCount": 22,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Settings"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 1435,
+          "focusableCount": 27,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Settings"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Settings\""
+      ]
+    },
+    {
+      "name": "settings-anomaly",
+      "route": "/settings/anomaly",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 13,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Anomaly review"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 13,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Anomaly review"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 18,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Anomaly review"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Anomaly review\""
+      ]
+    },
+    {
+      "name": "settings-delete-account",
+      "route": "/settings/delete-account",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 12,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Delete account"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 12,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Delete account"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 17,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Delete account"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Delete account\""
+      ]
+    },
+    {
+      "name": "settings-export",
+      "route": "/settings/export",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 14,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Export ledger"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 14,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 333,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 333,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Export ledger"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 19,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 357,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 357,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Export ledger"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Export ledger\""
+      ]
+    },
+    {
+      "name": "settings-group",
+      "route": "/settings/group",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 884,
+          "focusableCount": 15,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Group details"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 15,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 590,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Group details"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 20,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 590,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Group details"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Group details\""
+      ]
+    },
+    {
+      "name": "settings-language",
+      "route": "/settings/language",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 12,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Language"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 12,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Language"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 17,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Language"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Language\""
+      ]
+    },
+    {
+      "name": "settings-notifications",
+      "route": "/settings/notifications",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 15,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Notifications"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 15,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Notifications"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 20,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Notifications"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Notifications\""
+      ]
+    },
+    {
+      "name": "settings-profile",
+      "route": "/settings/profile",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 848,
+          "focusableCount": 14,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Profile"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 14,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Profile"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 19,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 630,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Profile"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Profile\""
+      ]
+    },
+    {
+      "name": "settings-security",
+      "route": "/settings/security",
+      "sizes": {
+        "375": {
+          "status": 200,
+          "scrollW": 375,
+          "clientW": 375,
+          "bodyH": 812,
+          "focusableCount": 13,
+          "smallTargets": [],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Security"
+        },
+        "768": {
+          "status": 200,
+          "scrollW": 768,
+          "clientW": 768,
+          "bodyH": 1024,
+          "focusableCount": 13,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 111,
+              "h": 32
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 678,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Security"
+        },
+        "1440": {
+          "status": 200,
+          "scrollW": 1440,
+          "clientW": 1440,
+          "bodyH": 900,
+          "focusableCount": 18,
+          "smallTargets": [
+            {
+              "tag": "button",
+              "label": "Sign out",
+              "w": 113,
+              "h": 32
+            },
+            {
+              "tag": "button",
+              "label": "Invite code — Copy",
+              "w": 85,
+              "h": 24
+            },
+            {
+              "tag": "input",
+              "label": "",
+              "w": 726,
+              "h": 36
+            }
+          ],
+          "title": "Ibimina — Community Banking",
+          "lang": "rw",
+          "h1": "Security"
+        }
+      },
+      "console": [],
+      "network": [],
+      "status": 200,
+      "overflowAt375": false,
+      "notes": [
+        "h1=\"Security\""
+      ]
+    }
+  ],
+  "issues": []
+}

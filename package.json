@@ -1,0 +1,24 @@
+{
+  "name": "digital-ibimina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demsix6/DIGITAL-IBIMINA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/demsix6/DIGITAL-IBIMINA/issues"
+  },
+  "homepage": "https://github.com/demsix6/DIGITAL-IBIMINA#readme"
+}

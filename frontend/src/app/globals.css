@@ -1,0 +1,328 @@
+@import 'tailwindcss';
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   Ibimina brand tokens — the single source of truth for colour, type, radius.
+   Defined once as a Tailwind v4 theme so every utility (bg-green, text-ink,
+   rounded-card …) comes from the brand, never from arbitrary values.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-ink: #16261f;
+  --color-green: #1b4332;
+  --color-green-deep: #14352a;
+  --color-green-lift: #245744;
+  --color-gold: #d7a33e;
+  --color-gold-deep: #b9871f;
+  --color-gold-soft: #f6ecd4;
+  --color-bg: #f6f4ee;
+  --color-card: #ffffff;
+  --color-line: #e6e2d8;
+  --color-muted: #5c6863;
+  --color-success: #1f6b46;
+  --color-success-bg: #dceee1;
+  --color-pending: #78591a;
+  --color-pending-bg: #f4e7ce;
+  --color-danger: #8a3b2e;
+  --color-danger-bg: #f4e2dd;
+
+  /* Numeric weight tokens so `font-800` means what the brand means. */
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-weight-800: 800;
+
+  --radius-card: 16px;
+  --radius-panel: 14px;
+  --radius-chip: 999px;
+
+  --shadow-soft: 0 1px 2px rgb(22 38 31 / 0.04), 0 6px 16px -8px rgb(22 38 31 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(22 38 31 / 0.05), 0 14px 30px -12px rgb(22 38 31 / 0.18);
+
+  --ease-spring: cubic-bezier(0.34, 1.42, 0.44, 1);
+  --ease-glide: cubic-bezier(0.32, 0.72, 0.24, 1);
+}
+
+/* Motion language: spring-based, physical. */
+@theme {
+  --animate-rise: rise 0.5s var(--ease-spring) both;
+  --animate-pulse-soft: pulse-soft 0.9s var(--ease-glide) both;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-shake: shake 0.4s var(--ease-glide) both;
+
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-6px);
+    }
+    40% {
+      transform: translateX(6px);
+    }
+    60% {
+      transform: translateX(-4px);
+    }
+    80% {
+      transform: translateX(4px);
+    }
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px) scale(0.99);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes pulse-soft {
+    0% {
+      transform: scale(0.86);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.06);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -160% 0;
+    }
+    to {
+      background-position: 260% 0;
+    }
+  }
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overscroll-behavior-y: none;
+    @apply bg-background text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+  }
+
+  /* Amounts are the most-read text in this app. */
+  .amount {
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.03em;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+
+  /* Minimum 44px touch targets everywhere. */
+  button,
+  [role='button'] {
+    min-height: 44px;
+  }
+
+  /* Form controls get a comfortable 44px tap height on small screens only,
+     so desktop density is unchanged. Checkboxes/switches/radios are excluded. */
+  @media (max-width: 639px) {
+    input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='hidden']),
+    select,
+    textarea {
+      min-height: 44px;
+    }
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-green);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+@utility surface {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-soft);
+}
+
+@utility skeleton {
+  background-image: linear-gradient(
+    100deg,
+    #eeeae0 20%,
+    #f6f4ee 40%,
+    #f6f4ee 60%,
+    #eeeae0 80%
+  );
+  background-size: 220% 100%;
+  animation: var(--animate-shimmer);
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* shadcn/ui design tokens, re-wired to the Ibimina brand palette so every
+   shadcn component (button, dialog, badge …) renders in brand colours. */
+:root {
+  --background: #f6f4ee;
+  --foreground: #16261f;
+  --card: #ffffff;
+  --card-foreground: #16261f;
+  --popover: #ffffff;
+  --popover-foreground: #16261f;
+  --primary: #1b4332;
+  --primary-foreground: #ffffff;
+  --secondary: #f6ecd4;
+  --secondary-foreground: #16261f;
+  --muted: #ece9e1;
+  --muted-foreground: #5c6863;
+  --accent: #d7a33e;
+  --accent-foreground: #16261f;
+  --destructive: #8a3b2e;
+  --border: #e6e2d8;
+  --input: #e6e2d8;
+  --ring: #1b4332;
+  --chart-1: #1b4332;
+  --chart-2: #d7a33e;
+  --chart-3: #1f6b46;
+  --chart-4: #8a6a1f;
+  --chart-5: #245744;
+  --radius: 0.75rem;
+  --sidebar: #1b4332;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #d7a33e;
+  --sidebar-primary-foreground: #16261f;
+  --sidebar-accent: #245744;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #245744;
+  --sidebar-ring: #d7a33e;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.448 0.119 151.328);
+  --primary-foreground: oklch(0.982 0.018 155.826);
+  --secondary: oklch(0.274 0.006 286.033);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.448 0.119 151.328);
+  --accent-foreground: oklch(0.982 0.018 155.826);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.871 0.15 154.449);
+  --chart-2: oklch(0.723 0.219 149.579);
+  --chart-3: oklch(0.627 0.194 149.214);
+  --chart-4: oklch(0.527 0.154 150.069);
+  --chart-5: oklch(0.448 0.119 151.328);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.723 0.219 149.579);
+  --sidebar-primary-foreground: oklch(0.982 0.018 155.826);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
