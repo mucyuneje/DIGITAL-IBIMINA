@@ -10,11 +10,18 @@ const manrope = Manrope({ subsets: ["latin"], variable: "--font-sans", weight: [
 export const metadata: Metadata = {
   title: APP_DEFAULT_TITLE,
   description: "Ibimina community savings group (Ikimina) — deposits, transparent ledgers, multi-sig withdrawals.",
+  // The app provides its own RW/EN/FR switcher. Browser translation mutates
+  // React's DOM outside React's control and can crash client navigation.
+  other: { google: "notranslate" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="rw" className={cn("h-full", "antialiased", "font-sans", manrope.variable)}>
+    <html
+      lang="rw"
+      translate="no"
+      className={cn("notranslate", "h-full", "antialiased", "font-sans", manrope.variable)}
+    >
       <body className="min-h-full flex flex-col">
         <Providers>{children}</Providers>
       </body>

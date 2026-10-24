@@ -5,7 +5,10 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 const contentSecurityPolicy = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDevelopment ? " 'unsafe-eval'" : ""} https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://apis.google.com`,
-  "style-src 'self' 'unsafe-inline'",
+  // Google Translate can inject its stylesheet from gstatic. The app opts out
+  // of page translation at the root; allowing this host only avoids a noisy
+  // CSP violation if a browser extension still injects the stylesheet.
+  "style-src 'self' 'unsafe-inline' https://www.gstatic.com",
   "img-src 'self' blob: data: https:",
   "font-src 'self' data:",
   `connect-src 'self'${isDevelopment ? " ws://localhost:* wss://localhost:*" : ""} https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://*.cloudfunctions.net https://www.google.com/recaptcha/`,
